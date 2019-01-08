@@ -22,6 +22,7 @@ pipelineJob('smoke_intel_testbed') {
                 git(ciUrl)
             }
             scriptPath("./pipeline/intel_testbed.jenkinsfile")
+            extensions { }
         }
     }
 }
