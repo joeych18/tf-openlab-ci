@@ -22,6 +22,7 @@ pipelineJob('nightly_intel_testbed') {
                 git(gitUrl)
             }
             scriptPath("./pipeline/intel_testbed.jenkinsfile")
+            extensions { }
         }
     }
 }
