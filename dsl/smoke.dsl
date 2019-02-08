@@ -19,9 +19,10 @@ pipelineJob('smoke_intel_testbed') {
     definition {
         cpsScm {
             scm {
-                git(ciUrl)
+                git(vrouterUrl)
             }
             scriptPath("./pipeline/intel_testbed.jenkinsfile")
+            extensions { }
         }
     }
 }
